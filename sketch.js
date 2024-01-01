@@ -15,7 +15,7 @@ function load_videos(videos_per_row, videos_per_column)
     video_names = [];
     for(let vid_inc = 0; vid_inc <= num_vids - 1; vid_inc++)
     {
-        video_names.push(`assets/final/${vid_inc+1}.mp4`);
+        video_names.push(`assets/${vid_inc+1}.mp4`);
     }
 
     shuffle_videos(video_names);
